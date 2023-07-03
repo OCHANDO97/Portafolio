@@ -1,0 +1,33 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .backend-skills,
+  .frontend-skills,
+  .database-skills,
+  .virtualization-skills {
+    width: 700px; /* Puedes ajustar el tamaño según tus necesidades */
+    margin: 20px;
+}
+  
+.title-skills {
+  color: yellow;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+li {
+  color: yellow;
+  font-size: 20px;
+}
+  @media (max-width: 768px) {
+    .skill-section {
+      max-width: 100%;
+    }
+  }
+  

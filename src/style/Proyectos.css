@@ -1,0 +1,37 @@
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
+    grid-template-rows: auto; /* Ajusta la altura automáticamente */
+    gap: 20px; /* Espacio entre las celdas */
+  }
+  
+  .article-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .article-item img {
+    height: 250px;
+    width: 450px;
+  }
+  
+  .article-item p {
+    margin-top: 10px;
+  }
+  
+
+  /* Ajustes para dispositivos móviles */
+  @media screen and (max-width: 767px) {
+    .article-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* Ajustes para tabletas */
+  @media screen and (min-width: 1024px) {
+    .article-container {
+      grid-template-columns: repeat(3, 1fr); /* Cambia a tres columnas en dispositivos con un ancho mínimo de 1024px (tabletas) */
+    }
+  }

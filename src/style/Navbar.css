@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.795);
+  font-size: 35px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  max-width: 800px; /* Ajusta el ancho máximo del Navbar según tus necesidades */
+  width: 100%;
+}
+
+.navbar-list li {
+  margin: 0 10px;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.navbar-list li a:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-list li {
+    margin: 10px 0;
+  }
+}

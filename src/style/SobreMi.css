@@ -1,0 +1,26 @@
+.sobre-mi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+}
+
+.h1sobre-mi {
+  color: yellow;
+
+}
+.sobre-mi-text {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .sobre-mi-text {
+    font-size: 18px;
+  }
+}
