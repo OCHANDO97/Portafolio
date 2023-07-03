@@ -1,6 +1,6 @@
 import React from 'react'
 import "../style/Home.css";
-import fotoTipo from "../assets/fotoPerfil.jpg"
+import fotoTipo from "../assets/foto.jpg"
 const Home = () => {
     return (
         <div className="home-container">
