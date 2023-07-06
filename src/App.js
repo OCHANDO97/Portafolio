@@ -8,6 +8,7 @@ import Contacto from './page/Contacto';
 import Proyectos from './page/Proyectos';
 import ListaCompra from './page/ListaProyectos/ListaCompra';
 import ApiRestaurante from './page/ListaProyectos/ApiRestaurante';
+import Scrapeo from './page/ListaProyectos/Scrapeo';
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
         <Route path="/listaCompra" element={<ListaCompra />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/apiRestaurante" element={<ApiRestaurante />} />
+        <Route path="/webScraping" element={<Scrapeo />} />
 
+        
       </Routes>
   </>
   );

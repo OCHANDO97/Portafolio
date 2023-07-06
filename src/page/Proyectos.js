@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../style/Proyectos.css';
 import imagenListaCompra from "../assets/listaCompra.png";
 import imagenApiRestaurante from "../assets/apiRestaurante.png";
+import scrapingImg from "../assets/scraping.png";
 
 const Proyectos = () => {
   return (
@@ -20,7 +21,13 @@ const Proyectos = () => {
          
         </Link>
       </div>
-      
+      <div className="article-item">
+        <Link to="/webScraping">
+          <p>Escrapeo de datos de páginas web: Obtención de productos</p>
+          <img src={scrapingImg} alt="" />
+         
+        </Link>
+      </div>
       
     </div>
   );
