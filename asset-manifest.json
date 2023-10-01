@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.77c3f742.css",
-    "main.js": "/Portafolio/static/js/main.b2c321ed.js",
+    "main.js": "/Portafolio/static/js/main.bb75dfac.js",
     "static/js/787.ae0d8d37.chunk.js": "/Portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/disenoBDAppLista.png": "/Portafolio/static/media/disenoBDAppLista.fa1605c583897da3969d.png",
+    "static/media/blog.png": "/Portafolio/static/media/blog.d023e143c14441a7d063.png",
     "static/media/scraping.png": "/Portafolio/static/media/scraping.2fb3ee8a937570a17b8f.png",
     "static/media/listaCompra.png": "/Portafolio/static/media/listaCompra.316616caa836f9d84425.png",
     "static/media/apiRestaurante.png": "/Portafolio/static/media/apiRestaurante.83358b0cf11bb9a7f1ac.png",
@@ -11,11 +12,11 @@
     "static/media/disenoBDApiRestaurante.png": "/Portafolio/static/media/disenoBDApiRestaurante.b03a504fe114771bf443.png",
     "index.html": "/Portafolio/index.html",
     "main.77c3f742.css.map": "/Portafolio/static/css/main.77c3f742.css.map",
-    "main.b2c321ed.js.map": "/Portafolio/static/js/main.b2c321ed.js.map",
+    "main.bb75dfac.js.map": "/Portafolio/static/js/main.bb75dfac.js.map",
     "787.ae0d8d37.chunk.js.map": "/Portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77c3f742.css",
-    "static/js/main.b2c321ed.js"
+    "static/js/main.bb75dfac.js"
   ]
 }
