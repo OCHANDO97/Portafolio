@@ -7,7 +7,7 @@ const Home = () => {
           <div className="profile">
   
             <h1 className="home-name">Soy Juan Ochando </h1>
-            <h1 className="home-funcion">Desarrollador BackEnd</h1>
+            <h1 className="home-funcion">Desarrollador de Software</h1>
 
             <img className="profile-image" src={fotoTipo} alt="" />
           </div>

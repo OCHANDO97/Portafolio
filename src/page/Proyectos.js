@@ -4,6 +4,7 @@ import '../style/Proyectos.css';
 import imagenListaCompra from "../assets/listaCompra.png";
 import imagenApiRestaurante from "../assets/apiRestaurante.png";
 import scrapingImg from "../assets/scraping.png";
+import blog from "../assets/blog.png";
 
 const Proyectos = () => {
   return (
@@ -25,6 +26,13 @@ const Proyectos = () => {
         <Link to="/webScraping">
           <p>Escrapeo de datos de páginas web: Obtención de productos</p>
           <img src={scrapingImg} alt="" />
+         
+        </Link>
+      </div>
+      <div className="article-item">
+        <Link to="/blogPHP">
+          <p>Blog de video Juegos</p>
+          <img src={blog} alt="" />
          
         </Link>
       </div>

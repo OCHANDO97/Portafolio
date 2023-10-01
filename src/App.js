@@ -9,6 +9,7 @@ import Proyectos from './page/Proyectos';
 import ListaCompra from './page/ListaProyectos/ListaCompra';
 import ApiRestaurante from './page/ListaProyectos/ApiRestaurante';
 import Scrapeo from './page/ListaProyectos/Scrapeo';
+import BlogPHP from './page/ListaProyectos/BlogPHP';
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/apiRestaurante" element={<ApiRestaurante />} />
         <Route path="/webScraping" element={<Scrapeo />} />
+        <Route path="/blogPHP" element={<BlogPHP />} />
 
-        
       </Routes>
   </>
   );
