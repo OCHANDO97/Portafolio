@@ -37,6 +37,8 @@ const Habilidades = () => {
                 <li>MYSQL:</li>
                     <p>Manejo de consulta con grandes cantidades de datos</p>
                     <p>Diseño de Base relacional</p>
+                    <p>Conocimientos del lenguaje SQL</p>
+                    <p>Procedimientos Almacenados</p>
                 <li>NoSQL MongoDB</li>
                     <p>Manejo de consulta con grandes cantidades de datos</p>
                     <p>Diseño de Base no relacional atraves de documentos Json</p>
